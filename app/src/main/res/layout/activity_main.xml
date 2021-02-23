@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/Bakudann1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Bakudann2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann3"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann3" />
+
+    <ImageButton
+        android:id="@+id/Bakudann3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann1"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann1" />
+
+    <ImageButton
+        android:id="@+id/Bakudann4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann2"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EF1212"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bakudann14" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="リセット"
+        app:layout_constraintBottom_toTopOf="@+id/reverse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/reverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="戻る"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Bakudann5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bakudann1" />
+
+    <ImageButton
+        android:id="@+id/Bakudann6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann5"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann5" />
+
+    <ImageButton
+        android:id="@+id/Bakudann7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann6"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann6" />
+
+    <ImageButton
+        android:id="@+id/Bakudann8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann7"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann7" />
+
+    <ImageButton
+        android:id="@+id/Bakudann9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bakudann5" />
+
+    <ImageButton
+        android:id="@+id/Bakudann10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann9"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann9" />
+
+    <ImageButton
+        android:id="@+id/Bakudann11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann10"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann10" />
+
+    <ImageButton
+        android:id="@+id/Bakudann12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann11"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann11" />
+
+    <ImageButton
+        android:id="@+id/Bakudann13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bakudann9" />
+
+    <ImageButton
+        android:id="@+id/Bakudann14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann13"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann13" />
+
+    <ImageButton
+        android:id="@+id/Bakudann15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toStartOf="@+id/Bakudann16"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann14"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann14" />
+
+    <ImageButton
+        android:id="@+id/Bakudann16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Bakudann15"
+        app:layout_constraintTop_toTopOf="@+id/Bakudann15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
